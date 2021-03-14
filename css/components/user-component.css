@@ -32,7 +32,7 @@
 .user-component__avatar--sm {
     width: 60px;
     height: 60px;
-    border-radius: ;
+    border-radius: 25px;
 }
 
 .user-component__title--not-bold {
@@ -41,4 +41,12 @@
 
 .user-component__column:last-child {
     color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.user-component__time {
+    margin-bottom: 10px;
+    display: block;
 }
