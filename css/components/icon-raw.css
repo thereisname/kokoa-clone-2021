@@ -12,6 +12,7 @@
     box-sizing: border-box;
     transition: color 0.3s ease-in-out;
     color: rgba(0, 0, 0, 0.6);
+    position: relative;
 }
 .icon-row__icon:hover {
     cursor: pointer;
@@ -23,4 +24,9 @@
 .icon-row__icon span {
     margin-top: 18px;
     text-align: center;
+}
+
+.nav__link__new--circle {
+    top: 10px;
+    right: 25px;
 }

@@ -1,5 +1,5 @@
 .settings__setting {
-    padding: 20px 0px;
+    padding: 20px 10px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     font-size: 20px;
     display: flex;
@@ -15,4 +15,14 @@
 
 .settings__setting-column:last-child {
     opacity: 0.5;
+}
+
+.settings__setting:last-child {
+    border-bottom: none;
+}
+.settings-list--list {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 10px 0px;
+    margin-bottom: 20px;
+    width: 100%;
 }
