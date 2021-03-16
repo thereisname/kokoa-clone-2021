@@ -5,6 +5,26 @@
     align-items: center;
     justify-content: center;
 }
+
+@keyframes pointBack {
+    0% {
+        transform: none;
+        color: rgba(0, 0, 0, 0.7);
+    }
+    50% {
+        transform: scale(1.2);
+        color: rgba(0, 0, 0, 1);
+    }
+    100% {
+        transform: none;
+        color: rgba(0, 0, 0, 0.7);
+    }
+}
+.alt-header__column i:hover {
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.7);
+    animation: pointBack 1s ease-in-out infinite;
+}
 .alt-header__column {
     width: 33%;
 }
