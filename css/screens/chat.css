@@ -1,8 +1,8 @@
 .status-bar--color{
-    background-color: #abc1d1;
+    background-color: #f6f6f6;
 }
 #chat-screen {
-    background-color: #abc1d1;
+    background-color: #ffffff;
 }
 
 #chat-screen .alt-header,
@@ -11,7 +11,7 @@
     position: fixed;
     width: 100%;
     box-sizing: border-box;
-    background-color: #abc1d1;
+    background-color: #f6f6f6;
 }
 
 #chat-screen .status-bar {
@@ -55,8 +55,7 @@
 }
 
 .chat__timestamp {
-    color: white;
-    background-color: #92a4b2;
+    color: #9a9a9d;
     padding: 12px 20px;
     font-size: 14px;
     border-radius: 25px;
@@ -87,12 +86,13 @@
 }
 
 .message__bubble {
-    background-color: white;
+    background-color: #e9e9eb;
     padding: 13px;
     font-size: 18px;
     border-radius: 15px;
     border-top-left-radius: 0px;
     margin-right: 5px;
+    
 }
 
 .message__time, 
@@ -106,11 +106,12 @@
 }
 
 .message-row--own .message__bubble {
-    background-color: var(--yellow);
+    background-color: #0a80fe;
     border-top-right-radius: 0px;
     border-top-left-radius: 15px;
     margin-right: 0;
     margin-left: 5px;
+    color: #ffffff;
 }
 
 /* .message-row--own .message__bubble {

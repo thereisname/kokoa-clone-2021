@@ -11,7 +11,6 @@
     justify-content: center;
     padding: 5px 3px;
     background-color: white;
-    z-index: 1;
 }
 .status-bar__column {
     width: 33%;

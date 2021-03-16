@@ -3,7 +3,9 @@
     margin-bottom: 15px;
 }
 .user-component--padding {
-    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
 }
 .user-component, .user-component__column:first-child {
     display: flex;
@@ -13,7 +15,7 @@
 .user-component__avatar {
     width: 70px;
     height: 70px;
-    border-radius: 27px;
+    border-radius: 50%;
     margin-right: 20px;
 }
 
@@ -55,7 +57,7 @@
 .user-component__avatar--sm {
     width: 60px;
     height: 60px;
-    border-radius: 25px;
+    border-radius: 50%;
 }
 
 .user-component__title--not-bold {
