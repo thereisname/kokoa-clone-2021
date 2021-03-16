@@ -14,7 +14,7 @@
                 <span>No Service</span>
                 <i class="fas fa-wifi"></i>    
             </div>
-            <div class="status-bar__column">
+            <div class="status-bar__column status-bar--time">
                 <span>18:43</span>
             </div>
             <div class="status-bar__column">
@@ -39,13 +39,14 @@
                 <a href="settings.html">
                     <i class="fas fa-cog fa-lg"></i>
                 </a>
+                <div class="screen-header__link__new"></div>
             </span>
         </div>
     </header>
 
     <main class="main-screen">
         <a href="chat.html">
-            <div class="user-component">
+            <div class="user-component user-component--padding">
                 <div class="user-component__column">
                     <img src="https://avatars3.githubusercontent.com/u/3612017" class="user-component__avatar"/>
                     <div class="user-component__text">
@@ -57,6 +58,23 @@
                 </div>
                 <div class="user-component__column">
                     <span class="user-component__time">21:22</span>
+                    <div class="badge">1</div>
+                </div>
+            </div>
+        </a>
+        <a href="chat-kakao.html">
+            <div class="user-component user-component--padding">
+                <div class="user-component__column">
+                    <img src="http://image.kmib.co.kr/online_image/2020/0101/611414110014085644_1.jpg" class="user-component__avatar"/>
+                    <div class="user-component__text">
+                        <h4 class="user-component__title">Kakao team</h4>
+                        <div class="user-component__subtitles">
+                            <h6 class="user-component__subtitle">Welcome to Kakao Talk!!</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <span class="user-component__time">20:22</span>
                     <div class="badge">1</div>
                 </div>
             </div>
@@ -97,5 +115,6 @@
         crossorigin="anonymous"
     >
     </script>
+    <script src="js/clock.js"></script>
 </body>
 </html>

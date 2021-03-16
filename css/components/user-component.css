@@ -1,6 +1,9 @@
 .user-component {
     justify-content: space-between;
 }
+.user-component--padding {
+    margin-bottom: 30px;
+}
 .user-component, .user-component__column:first-child {
     display: flex;
     align-items: center;
