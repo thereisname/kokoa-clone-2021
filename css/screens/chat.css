@@ -46,6 +46,7 @@
     } */
 }
 
+
 .main-chat {
     margin-top: 100px;
     display: flex;
@@ -66,6 +67,7 @@
     width: 100%;
     display: flex;
     margin-bottom: 25px;
+    align-items: flex-end;
 }
 
 .message-row img {
@@ -89,8 +91,8 @@
     background-color: #e9e9eb;
     padding: 13px;
     font-size: 18px;
-    border-radius: 15px;
-    border-top-left-radius: 0px;
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
     margin-right: 5px;
     
 }
@@ -107,8 +109,8 @@
 
 .message-row--own .message__bubble {
     background-color: #0a80fe;
-    border-top-right-radius: 0px;
-    border-top-left-radius: 15px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 15px;
     margin-right: 0;
     margin-left: 5px;
     color: #ffffff;
@@ -173,7 +175,7 @@
 }
 
 .reply__column button {
-    background-color: var(--yellow);
+    background-color: #b7bec5;
     border: none;
     width: 30px;
     height: 30px;
@@ -182,6 +184,7 @@
 
 .reply__column button i {
     opacity: 1;
+    color: white;
 }
 
 .reply__column button:focus, 
