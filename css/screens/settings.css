@@ -1,6 +1,16 @@
+.body-setting {
+    background-color: #f6f6f6;
+}
 .main-setting {
     padding: 0px;
     margin-top: 100px;
+}
+
+.user-componet--settings {
+    padding: 10px 30px;
+    margin: 0px;
+    background-color: white;
+    
 }
 .settings__setting {
     padding: 10px 30px;
@@ -68,4 +78,9 @@
 }
 .settings__setting__cell i {
     background-color: #49ee3b;
+}
+
+.settings-list--bar:first-child {
+    background-color: #f6f6f6;
+    padding: 10px 0px;
 }
