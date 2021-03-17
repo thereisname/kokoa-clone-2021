@@ -4,7 +4,7 @@
 }
 .user-component--padding {
     padding-bottom: 12px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     margin-bottom: 12px;
 }
 .user-component, .user-component__column:first-child {
@@ -71,7 +71,13 @@
     align-items: flex-end;
 }
 
-.user-component__time {
+.user-componet__timeIcon {
     margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.user-component__time {
+    
     display: block;
+    margin-right: 5px;
 }
