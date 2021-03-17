@@ -224,3 +224,7 @@
     font-weight: 400;
     margin-top: 5px;
 }
+
+.alt-header__column .fa-angle-left {
+    color: #027af9;
+}
