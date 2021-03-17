@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Settings - Kokoa Clone</title>
 </head>
-<body>
+<body id="chat-screen">
     <div class ="status-bar">
-        <div class="status-bar--fixed">
+        <div class="status-bar--fixed status-bar--color">
             <div class="status-bar__column status-bar--time">
                 <span>18:43</span>
             </div>
@@ -35,25 +35,25 @@
         </div>
     </header>
 
-    <main class="main-screen">
+    <main class="main-setting">
         <ul class="settings-list">
             <li class="settings__setting">
                 <div class="settings__setting-column">
-                    <i class="fas fa-bullhorn"></i>
+                    <span class="settings__setting__notices"><i class="fas fa-bullhorn"></i></span>
                     <span>Notices</span>
                 </div>
                 <div class="settings__setting-column"></div>
             </li>
             <li class="settings__setting">
                 <div class="settings__setting-column">
-                    <i class="fas fa-flask"></i>
+                    <span class="settings__setting__kokoaLab"><i class="fas fa-flask"></i></span>
                     <span>Kokoa Lab</span>
                 </div>
                 <div class="settings__setting-column"></div>
             </li>
             <li class="settings__setting">
                 <div class="settings__setting-column">
-                    <i class="fas fa-info-circle"></i>
+                    <span class="settings__setting__version"><i class="fas fa-info-circle"></i></span>
                     <span>Version</span>
                 </div>
                 <div class="settings__setting-column">Latest Version</div>
@@ -65,42 +65,42 @@
         <ul class="settings-list">
             <li class="settings__setting">
                 <div class="settings__setting-column">
-                    <i class="fas fa-lock"></i>
+                    <span class="settings__setting__privacy"><i class="fas fa-lock"></i></span>
                     <span>Privacy</span>
                 </div>
                 <div class="settings__setting-column"></div>
             </li>
             <li class="settings__setting">
                 <div class="settings__setting-column">
-                    <i class="far fa-bell"></i>
+                    <span class="settings__setting__notifications"><i class="far fa-bell"></i></span>
                     <span>Notifications</span>
                 </div>
                 <div class="settings__setting-column"></div>
             </li>
             <li class="settings__setting">
                 <div class="settings__setting-column">
-                    <i class="fas fa-user-alt"></i>
+                    <span class="settings__setting__friends"><i class="fas fa-user-alt"></i></span>
                     <span>Friends</span>
                 </div>
                 <div class="settings__setting-column"></div>
             </li>
             <li class="settings__setting">
                 <div class="settings__setting-column">
-                    <i class="far fa-comment"></i>
+                    <span class="settings__setting__chats"><i class="fas fa-comment"></i></i></span>
                     <span>Chats</span>
                 </div>
                 <div class="settings__setting-column"></div>
             </li>
             <li class="settings__setting">
                 <div class="settings__setting-column">
-                    <i class="fas fa-tv"></i>
+                    <span class="settings__setting__display"><i class="fas fa-tv"></i></span>
                     <span>Display</span>
                 </div>
                 <div class="settings__setting-column"></div>
             </li>
             <li class="settings__setting">
                 <div class="settings__setting-column">
-                    <i class="fas fa-brush"></i>
+                    <span class="settings__setting__themes"><i class="fas fa-brush"></i></span>
                     <span>Themes</span>
                 </div>
                 <div class="settings__setting-column">Default theme</div>
@@ -118,28 +118,33 @@
 
     </main>
 
-    <nav class="nav">
+    <!-- <nav class="nav">
         <ul class="nav__list">
             <li class="nav__btn">
                 <a class="nav__link" href="friends.html">
-                    <i class="far fa-user fa-2x"></i>
+                    <i class="far fa-user fa-lg"></i>
                 </a>
             </li>
             <li class="nav__btn">
                 <a class="nav__link" href="chats.html">
                     <span class="nav__notification badge">1</span>    
-                    <i class="far fa-comment fa-2x"></i>
+                    <i class="far fa-comment fa-lg"></i>
                 </a>
             </li>
             <li class="nav__btn">
-                <a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a>
+                <a class="nav__link" href="find.html">
+                    <i class="fas fa-hashtag fa-lg"></i>
+                </a>
             </li>
             <li class="nav__btn">
-                <a class="nav__link" href="more.html"><i class="fas fa-ellipsis-h fa-2x"></i></a>
+                <a class="nav__link" href="more.html">
+                    <i class="fas fa-ellipsis-h fa-lg"></i>
+                    <div class="nav__link__new"></div>
+                </a>
             </li>
         </ul>
-    </nav>
-    <div class="error-position--padding"></div>
+    </nav> -->
+    <!-- <div class="error-position--padding"></div> -->
 
     <div id="no-mobile">
         <span>Your screen is too big ㅠㅠ</span>

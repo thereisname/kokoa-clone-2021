@@ -1,16 +1,24 @@
+.main-setting {
+    padding: 0px;
+    margin-top: 100px;
+}
 .settings__setting {
-    padding: 20px 10px;
+    padding: 10px 30px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: white;
 }
 
 .settings__setting i {
+    color: white;
     opacity: 0.8;
     margin-right: 20px;    
     font-size: 22px;
+    padding: 10px;
+    border-radius: 15px;
 }
 
 .settings__setting-column:last-child {
@@ -22,14 +30,42 @@
 }
 
 .settings-list--bar {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-    padding: 10px 0px;
-    margin-bottom: 20px;
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.3); */
+    padding: 25px 0px;
+    background-color: #f2f1f7;
+    /* margin-bottom: 20px; */
     width: 100%;    
 }
+
+.settings__setting__themes i {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 12px;
+}
+
+.settings__setting__kokoaLab i{
+    
+    background-color: #534fdc;
+}
+.settings__setting__version i {
+    background-color: #909398;
+}
+.settings__setting__notices i {
+    background-color: #e00;
+    font-size: 20px;;
+}
+.settings__setting__notifications i,
+.settings__setting__privacy i{
+    background-color: #e00;
+}
+
+.settings__setting__display i {
+    background-color: #007bff;
+    font-size: 19px;
+}
+.settings__setting__friends i, 
+.settings__setting__chats i {
+    background-color: #58e66f;
+}
 .settings__setting__cell i {
-    padding: 10px;
-    color: white;
     background-color: #49ee3b;
-    border-radius: 15px;
 }
