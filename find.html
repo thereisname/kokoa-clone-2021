@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Find - Kokoa Clone</title>
 </head>
-<body>
+<body class="findBody">
     <div class ="status-bar">
         <div class="status-bar--fixed">
             <div class="status-bar__column status-bar--time">
@@ -126,24 +126,46 @@
         <ul class="nav__list">
             <li class="nav__btn">
                 <a class="nav__link" href="friends.html">
-                    <i class="far fa-user fa-lg"></i>
+                    <div class="nav__link__div">
+                        <i class="fas fa-user-circle fa-lg"></i>
+                        <span>Status</span>
+                    </div>
                 </a>
             </li>
             <li class="nav__btn">
                 <a class="nav__link" href="chats.html">
-                    <span class="nav__notification badge">1</span>    
-                    <i class="far fa-comment fa-lg"></i>
+                    <div class="nav__link__div">
+                        <span class="nav__notification badge">1</span> 
+                        <i class="fas fa-comments fa-lg"></i>
+                        <span>Chats</span>
+                    </div>  
                 </a>
             </li>
             <li class="nav__btn">
                 <a class="nav__link" href="find.html">
-                    <i class="fas fa-hashtag fa-lg"></i>
+                    <div class="nav__link__div">
+                        <i class="fas fa-hashtag fa-lg"></i>
+                        <span>Hashtag</span>
+                    </div>
+                    
                 </a>
             </li>
             <li class="nav__btn">
                 <a class="nav__link" href="more.html">
-                    <i class="fas fa-ellipsis-h fa-lg"></i>
-                    <div class="nav__link__new"></div>
+                    <div class="nav__link__div">
+                       <i class="fas fa-ellipsis-h fa-lg"></i>
+                        <span>Add</span> 
+                        <div class="nav__link__new"></div>
+                    </div>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="settings.html">
+                    <div class="nav__link__div">
+                        <i class="fas fa-cog fa-lg"></i>
+                        <span>Seetings</span> 
+                        <div class="screen-header__link__new"></div>
+                    </div>
                 </a>
             </li>
         </ul>

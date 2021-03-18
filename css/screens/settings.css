@@ -22,7 +22,7 @@
     background-color: white;
 }
 
-.settings__setting i {
+.settings__setting .settings__setting-column:first-child i {
     color: white;
     opacity: 0.8;
     margin-right: 20px;    
@@ -113,6 +113,7 @@
 .settings-list--bar:first-child i {
     margin-left: 10px;
     margin-right: 10px;
+    color: #8c8c8c;
 }
 .settings-list--bar:first-child form {
     width: 90%;

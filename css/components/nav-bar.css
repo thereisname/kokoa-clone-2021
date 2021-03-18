@@ -2,10 +2,10 @@
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #f9f9fa;
-    padding: 20px 50px;
+    background-color: #e5e5e5;
+    padding: 10px 30px 25px 30px;
     box-sizing: border-box;
-    border-top:1px solid rgba(121, 121, 121, 0.3);
+    border-top:1px solid rgba(0, 0, 0, 0.2);
 
 }
 .nav__list {
@@ -14,9 +14,19 @@
 }
 
 .nav__link {
-    color: #2e363e;
+    color: #a4a4a4;
     position: relative;
     font-size: 20px;
+}
+.nav__link__div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav__link__div span{
+    font-size: 15px;
+    margin-top: 10px;
 }
 
 @keyframes notificationAnimation {
@@ -36,8 +46,8 @@
 
 .nav__notification {
     position: absolute;
-    left: 20px;
-    bottom: 15px;
+    left: 30px;
+    bottom: -15px;
     animation: notificationAnimation 2s ease-in-out infinite;
 }
 
@@ -63,8 +73,11 @@
 .nav__btn:nth-child(3) {
     animation-delay: 0.4s;
 }
-.nav__btn:last-child {
+.nav__btn:nth-child(4) {
     animation-delay: 0.6s;
+}
+.nav__btn:last-child {
+    animation-delay: 0.8s;
 }
 
 .nav__link__new {
@@ -73,10 +86,23 @@
     border-radius: 50%;
     background-color: tomato;
     position: absolute;
-    top: -10px;
-    right: -5px;
+    top: -5px;
+    left: 40px;
 }
 
 .error-position--padding {
-    height: 75px;
+    height: 80px;
+}
+
+.friendsBody .nav__btn:nth-child(1) i {
+    color: #1884fe;
+}
+.chatsBody .nav__btn:nth-child(2) i {
+    color: #1884fe;
+}
+.findBody .nav__btn:nth-child(3) i {
+    color: #1884fe;
+}
+.moreBody .nav__btn:nth-child(4) i {
+    color: #1884fe;
 }

@@ -26,8 +26,36 @@
     border-radius: 50%;
     background-color: tomato;
     position: absolute;
-    top: -8px;
-    right: -6px;
+    top: -5px;
+    left: 50px;
+}
+.screen-header__search {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.screen-header__search div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    background-color: #f8f8fa;
+    border-radius: 20px;
+}
+.screen-header__search i {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #dcdcdc;
+}
+.screen-header__search form {
+    width: 90%;
+}
+.screen-header__search input {
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f8f8fa;
 }
 
 @keyframes rotateCog {
