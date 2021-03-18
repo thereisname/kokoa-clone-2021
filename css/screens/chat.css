@@ -228,3 +228,7 @@
 .alt-header__column .fa-angle-left {
     color: #027af9;
 }
+
+.alt-header__column .fa-bars {
+    margin-top: 7px;
+}
