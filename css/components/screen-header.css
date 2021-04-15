@@ -1,72 +1,71 @@
 .screen-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: var(--horizontal-space);
-    margin-bottom: 15px;
-    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--horizontal-space);
+  margin-bottom: 15px;
 }
 
 .screen-header__title {
-    font-size: 32px;
-    font-weight: 600;
+  font-size: 32px;
+  font-weight: 600;
 }
 
-.screen-header__icons span{
-    margin-left: 25px;
+.screen-header__icons span {
+  margin-left: 25px;
 }
 
 .screen-header__icons {
-    position: relative;
+  position: relative;
 }
 
 .screen-header__link__new {
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    background-color: tomato;
-    position: absolute;
-    top: -5px;
-    left: 50px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: tomato;
+  position: absolute;
+  top: -5px;
+  right: -10px;
 }
 .screen-header__search {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
-.screen-header__search div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    background-color: #f8f8fa;
-    border-radius: 20px;
+.screen-header__search div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  background-color: #f8f8fa;
+  border-radius: 20px;
 }
 .screen-header__search i {
-    margin-left: 10px;
-    margin-right: 10px;
-    color: #dcdcdc;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #dcdcdc;
 }
 .screen-header__search form {
-    width: 90%;
+  width: 90%;
 }
 .screen-header__search input {
-    width: 100%;
-    height: 30px;
-    border: none;
-    border-radius: 10px;
-    background-color: #f8f8fa;
+  width: 100%;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f8f8fa;
 }
 
 @keyframes rotateCog {
-    from {
-        transform: none;
-    }
-    to {
-        transform: rotateZ(360deg);
-    }
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
 }
 
 .screen-header__icons .fa-cog:hover {
-    animation: rotateCog 2s linear infinite;
+  animation: rotateCog 2s linear infinite;
 }
